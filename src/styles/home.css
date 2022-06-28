@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    margin: 300px 50px;
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: bold;
+
+}
+
+.subtitle {
+    font-size: 2rem;
+    font-weight: bold;
+
+
+}

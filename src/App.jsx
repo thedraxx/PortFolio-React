@@ -1,11 +1,13 @@
-import { useState } from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import { Navigator } from "./components/";
+import { Rutas } from "./routes";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <div></div>;
+  return (
+    <div>
+      <Navigator />
+      <Rutas />
+    </div>
+  );
 }
 
 export default App;
