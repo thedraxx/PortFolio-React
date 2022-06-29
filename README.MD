@@ -15,6 +15,14 @@ react: 18
 ```
 react-router: 6.3.0
 ```
+## 🤍 Versión de Redux
+```
+react-redux: ^8.0.2
+```
+## 🤍 Versión de Redux/Toolkit
+```
+reduxjs/toolkit: ^1.8.2
+```
 ## 🤍 Versión de Bootstrap
 ```
 bootstrap: 5.1.3
