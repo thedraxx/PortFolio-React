@@ -1,4 +1,5 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import { About, Contact, Home } from "../pages";
 
