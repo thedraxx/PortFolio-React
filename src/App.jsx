@@ -1,4 +1,5 @@
 import { useSelector } from "react-redux";
+import { HashRouter } from "react-router-dom";
 import { Navigator } from "./components/";
 import { Rutas } from "./routes";
 
@@ -7,10 +8,12 @@ function App() {
   const { active } = useSelector((state) => state.isActive);
   return (
     <div className={active ? "text-light bg-dark" : " text-dark bg-white"}>
-      {/* Navbar */}
-      <Navigator />
-      {/* Rutas */}
-      <Rutas />
+      <HashRouter>
+        {/* Navbar */}
+        <Navigator />
+        {/* Rutas */}
+        <Rutas />
+      </HashRouter>
     </div>
   );
 }
