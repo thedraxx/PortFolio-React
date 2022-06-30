@@ -35,7 +35,14 @@ typewriter-effect: 2.18.2
 ```
 fortawesome:6.1.1
 ```
-
+## 🤍 Versión de animate.css
+```
+animate.css: ^4.1.1
+```
+## 🤍 Versión de framer-motion
+```
+framer-motion: ^6.3.16
+```
 ## 🔮 Futuro del Proyecto
 
 Se espera seguir agregando proyectos y funcionalidades.
