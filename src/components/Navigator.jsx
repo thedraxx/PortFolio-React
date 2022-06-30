@@ -3,6 +3,7 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 import { useSelector, useDispatch } from "react-redux";
 import { setActive } from "../store/slice/mode/modeActiveSlice";
 import { Link } from "react-router-dom";
+
 export const Navigator = () => {
   // Usamos uso de useDispatch para poder acceder al dispatch
   const dispatch = useDispatch();
@@ -30,9 +31,9 @@ export const Navigator = () => {
           <Nav.Link onClick={() => dispatch(setActive())}>
             {/* Si active es true es oscuro sino es claro */}
             {!active ? (
-              <i className="fa-solid fa-moon" />
+              <i className="fa-solid fa-moon " />
             ) : (
-              <i className="fa-solid fa-sun" />
+              <i className="fa-solid fa-sun " />
             )}
           </Nav.Link>
         </Navbar.Collapse>

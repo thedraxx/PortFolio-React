@@ -37,8 +37,13 @@
 }
 
 
+
 .links {
     margin: auto 1vw;
+}
+
+.info {
+    margin-top: 0;
 }
 
 @media screen and (max-width: 1000px) {
@@ -74,6 +79,10 @@
         align-items: center;
         margin-top: 0vw;
         width: 100%;
+    }
+
+    .info {
+        margin-top: -20vh;
     }
 
 }
