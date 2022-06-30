@@ -13,11 +13,11 @@ export const Navigator = () => {
   return (
     <Navbar>
       <Container>
-        <Navbar.Brand className={!active ? "text-light" : "text-dark"}>
+        <Navbar.Brand className={!active ? "text-dark" : "text-light"}>
           PortFolio
         </Navbar.Brand>
         <Navbar.Toggle />
-        <Navbar.Collapse className="justify-content-end">
+        <Navbar.Collapse className="justify-content-end ">
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#home">Proyects</Nav.Link>
           <Nav.Link href="#home">Contact</Nav.Link>
