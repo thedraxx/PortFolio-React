@@ -43,15 +43,14 @@ export const Home = () => {
                   I'm 22 years old I'm from Argentina 🇦🇷 Front-End Developer Who
                   love building Digital Products.
                 </h5>
-                <div className=" containerIconos mx-auto mt-2  col-md-auto ">
-                  <i className="fa-brands fa-react fa-3x mx-2"></i>
-                  <i className="fa-brands fa-js-square  fa-3x mx-2"></i>
-                  <i className="fa-brands fa-html5  fa-3x mx-2"></i>
-                  <i className="fa-brands fa-css3-alt  fa-3x mx-2"></i>
-                  <i className="fa-brands fa-bootstrap  fa-3x mx-2"></i>
-                  <i className="fa-brands fa-sass  fa-3x mx-2"></i>
-                  <i className="fa-brands fa-git-alt  fa-3x mx-2"></i>
-                  <i className="fa-brands fa-github  fa-3x mx-2"></i>
+                <div className="containerIconos mx-auto mt-2 col-md-auto">
+                  <i className="fa-brands fa-react fa-3x mx-2 mt-auto"></i>
+                  <i className="fa-brands fa-js-square  fa-3x mx-2 mt-auto"></i>
+                  <i className="fa-brands fa-html5  fa-3x mx-2 mt-auto"></i>
+                  <i className="fa-brands fa-css3-alt  fa-3x mx-2 mt-auto"></i>
+                  <i className="fa-brands fa-bootstrap fa-3x mx-2 mt-auto"></i>
+                  <i className="fa-brands fa-sass  fa-3x mx-2 mt-auto"></i>
+                  <i className="fa-brands fa-git-alt fa-3x mx-2 mt-auto"></i>
                 </div>
               </div>
             </div>

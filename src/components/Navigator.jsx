@@ -3,6 +3,7 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 import { useSelector, useDispatch } from "react-redux";
 import { setActive } from "../store/slice/mode/modeActiveSlice";
 import { Link } from "react-router-dom";
+import "../styles/global.css";
 
 export const Navigator = () => {
   // Usamos uso de useDispatch para poder acceder al dispatch
@@ -19,22 +20,38 @@ export const Navigator = () => {
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end ">
-          <Link to="/" className="links">
+          <Link
+            to="/"
+            className={` links ${!active ? "text-dark" : "text-light"}`}
+            style={{ textDecoration: "none" }}
+          >
             Home
           </Link>
-          <Link to="/proyects" className="links">
+          <Link
+            to="/proyects"
+            className={` links ${!active ? "text-dark" : "text-light"}`}
+            style={{ textDecoration: "none" }}
+          >
             Proyects
           </Link>
-          <Link to="/Contact" className="links">
+          <Link
+            to="/Contact"
+            className={` links ${!active ? "text-dark" : "text-light"}`}
+            style={{ textDecoration: "none" }}
+          >
             Contact
           </Link>
           <Nav.Link onClick={() => dispatch(setActive())}>
             {/* Si active es true es oscuro sino es claro */}
             {!active ? (
-              <i className="fa-solid fa-moon " />
+              <i className="fa-solid fa-moon fa-1x " />
             ) : (
-              <i className="fa-solid fa-sun " />
+              <i className="fa-solid fa-sun fa-1x" />
             )}
+          </Nav.Link>
+          <Nav.Link href="https://github.com/thedraxx" className="Redirect">
+            {" "}
+            <i className="fa-brands fa-github fa-1x mx-2 mt-auto"></i>
           </Nav.Link>
         </Navbar.Collapse>
       </Container>
