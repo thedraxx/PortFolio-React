@@ -34,14 +34,14 @@ export const Navigator = () => {
           >
             Proyects
           </Link>
-          <Link
-            to="/Contact"
-            className={` links ${!active ? "text-dark" : "text-light"}`}
-            style={{ textDecoration: "none" }}
+
+          <Nav.Link
+            style={{
+              color: `${!active ? "black" : "white"}`,
+              textDecoration: "none",
+            }}
+            onClick={() => dispatch(setActive())}
           >
-            Contact
-          </Link>
-          <Nav.Link onClick={() => dispatch(setActive())}>
             {/* Si active es true es oscuro sino es claro */}
             {!active ? (
               <i className="fa-solid fa-moon fa-1x " />
@@ -49,9 +49,27 @@ export const Navigator = () => {
               <i className="fa-solid fa-sun fa-1x" />
             )}
           </Nav.Link>
-          <Nav.Link href="https://github.com/thedraxx" className="Redirect">
+          <Nav.Link
+            href="https://github.com/thedraxx"
+            className="Redirect"
+            style={{
+              color: `${!active ? "black" : "white"}`,
+              textDecoration: "none",
+            }}
+          >
             {" "}
             <i className="fa-brands fa-github fa-1x mx-2 mt-auto"></i>
+          </Nav.Link>
+          <Nav.Link
+            href="https://www.linkedin.com/in/cerranofrancisco/"
+            className="Redirect"
+            style={{
+              color: `${!active ? "black" : "white"}`,
+              textDecoration: "none",
+            }}
+          >
+            {" "}
+            <i className="fa-brands fa-linkedin fa-1x mx-2 mt-auto"></i>
           </Nav.Link>
         </Navbar.Collapse>
       </Container>
