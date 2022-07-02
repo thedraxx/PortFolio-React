@@ -6,6 +6,7 @@ import gif from "../images/gif.png";
 import pokeapi from "../images/pokeapi.png";
 import song from "../images/song.png";
 import hero from "../images/hero.png";
+import { Link } from "react-router-dom";
 
 export const Proyects = () => {
   return (
@@ -16,15 +17,23 @@ export const Proyects = () => {
           <h6 className="text-center text-truncate text-capitalize ">
             Crypto Currency (check the price of any cryptocurrency)
           </h6>
-          <img className="imgProyect w-100 mb-4 rounded " src={cripto} alt="" />
+          <a href="https://criptomonedas-conversor.netlify.app/">
+            <img
+              className="imgProyect w-100 mb-4 rounded "
+              src={cripto}
+              alt=""
+            />
+          </a>
           <h6 className="text-center text-truncate text-capitalize ">
             AnimeList API (save your favorite anime)
           </h6>
-          <img
-            className="imgProyect w-100 mb-4 rounded"
-            src={animelist}
-            alt=""
-          />
+          <a href="https://629d3e65fd78671ff3ac9f77--listanimes.netlify.app/#/">
+            <img
+              className="imgProyect w-100 mb-4 rounded"
+              src={animelist}
+              alt=""
+            />
+          </a>
         </div>
 
         {/* Segundo columna */}
@@ -32,25 +41,39 @@ export const Proyects = () => {
           <h6 className="text-center text-truncate text-capitalize ">
             Gif Generator (Generate a gif from a text)
           </h6>
-          <img className="imgProyect w-100 mb-4 rounded" src={gif} alt="" />
+          <a href="https://thedraxx.github.io/REACT--GeneratorsGif/">
+            <img className="imgProyect w-100 mb-4 rounded" src={gif} alt="" />
+          </a>
+
           <h6 className="text-center text-truncate text-capitalize ">
             Song Finder (find a song from a text)
           </h6>
-          <img className="imgProyect w-100 mb-4 rounded" src={song} alt="" />
+          <a href="https://thedraxx.github.io/SongFinderREACT/">
+            <img className="imgProyect w-100 mb-4 rounded" src={song} alt="" />
+          </a>
         </div>
 
         <div className="col-lg-4 mb-4">
           <h6 className="text-center text-truncate text-capitalize ">
             PokeAPI (find a pokemon)
           </h6>
-          <img className="imgProyect w-100 mb-4 rounded" src={pokeapi} alt="" />
+          <a href="https://thedraxx.github.io/PokeApi/">
+            <img
+              className="imgProyect w-100 mb-4 rounded"
+              src={pokeapi}
+              alt=""
+            />
+          </a>
+
           <h6 className="text-center text-truncate text-capitalize ">
             HeroList (search and find a hero)
           </h6>
-          <img className="imgProyect w-100 mb-4 rounded" src={hero} alt="" />
+          <a href="https://thedraxx.github.io/heroes-app-React/">
+            <img className="imgProyect w-100 mb-4 rounded" src={hero} alt="" />
+          </a>
         </div>
       </div>
-      <div className=" info row box  bg-danger ">
+      <div className=" info row box  bg-danger accordion-body mt-5 ">
         <div className="col-12 ">
           <div className="justify-content-center d-flex ">
             <div className="text-center">
