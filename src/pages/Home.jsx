@@ -5,6 +5,8 @@ import image from "../images/profile.jpg";
 import "animate.css";
 export const Home = () => {
   return (
+    // Aca esta es la forma de hacer una animacion con animate.css
+    // Saludo de bienvenida
     <>
       <div className="container mt-auto ">
         <div className=" contenedor content  ">
@@ -24,6 +26,7 @@ export const Home = () => {
             />
           </h1>
 
+          {/* Imagen de perfil */}
           <div className="d-flex p-5 mt-auto w-100  ">
             <div className="w-auto  mt-auto w-100 ">
               <img src={image} alt="1" className=" ImagenPerfil img-fluid " />
@@ -32,6 +35,7 @@ export const Home = () => {
         </div>
       </div>
 
+      {/* Aca estan las skills */}
       <div className="info row box bg-danger  ">
         <div className="col-12 ">
           <div className="justify-content-center d-flex ">

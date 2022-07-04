@@ -1,26 +1,25 @@
 import React from "react";
 import "../styles/proyects.css";
-import cripto from "../images/cripto.png";
+import moviesapp from "../images/moviesapp.png";
 import animelist from "../images/animelist.png";
 import gif from "../images/gif.png";
 import pokeapi from "../images/pokeapi.png";
 import song from "../images/song.png";
 import hero from "../images/hero.png";
-import { Link } from "react-router-dom";
-
 export const Proyects = () => {
+  // Aca estan algunos proyectos
   return (
     <>
       <div className="row m-5 accordion-body accordion-flush animate__animated animate__bounceInLeft ">
         {/* Primera columna */}
         <div className=" col-lg-4 mb-4 ">
           <h6 className="text-center text-truncate text-capitalize ">
-            Crypto Currency (check the price of any cryptocurrency)
+            MoviesApp (check the rank of your favorite movies)
           </h6>
-          <a href="https://criptomonedas-conversor.netlify.app/">
+          <a href="https://thedraxx.github.io/Movie-App/">
             <img
               className="imgProyect w-100 mb-4 rounded "
-              src={cripto}
+              src={moviesapp}
               alt=""
             />
           </a>

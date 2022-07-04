@@ -5,6 +5,7 @@ import { setActive } from "../store/slice/mode/modeActiveSlice";
 import { Link } from "react-router-dom";
 import "../styles/global.css";
 
+// El navbar
 export const Navigator = () => {
   // Usamos uso de useDispatch para poder acceder al dispatch
   const dispatch = useDispatch();
@@ -15,6 +16,7 @@ export const Navigator = () => {
   return (
     <Navbar>
       <Container>
+        {/* GracIas al useSelector podemos revisar el estado de la aplicacion y cambiar a modo oscuro o claro */}
         <Navbar.Brand className={!active ? "text-dark" : "text-light"}>
           PortFolio
         </Navbar.Brand>
@@ -40,9 +42,12 @@ export const Navigator = () => {
               color: `${!active ? "black" : "white"}`,
               textDecoration: "none",
             }}
+            //  Cuando hacemos click en el boton cambiamos el estado de la aplicacion
+            // Hacemos uso del dispatch para cambiar el estado de la aplicacion ya que se usa redux
             onClick={() => dispatch(setActive())}
           >
             {/* Si active es true es oscuro sino es claro */}
+            {/* Cambiamos el icono dependiendo de como esta active */}
             {!active ? (
               <i className="fa-solid fa-moon fa-1x " />
             ) : (
