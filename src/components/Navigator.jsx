@@ -76,6 +76,17 @@ export const Navigator = () => {
             {" "}
             <i className="fa-brands fa-linkedin fa-1x mx-2 mt-auto"></i>
           </Nav.Link>
+          <Nav.Link
+            href="mailto:cerrano.francisco22@gmail.com"
+            className="Redirect"
+            style={{
+              color: `${!active ? "black" : "white"}`,
+              textDecoration: "none",
+            }}
+          >
+            {" "}
+            <i className="fa-solid fa-envelope fa-1x mx-2 mt-auto"></i>
+          </Nav.Link>
         </Navbar.Collapse>
       </Container>
     </Navbar>
