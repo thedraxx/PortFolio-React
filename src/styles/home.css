@@ -42,7 +42,16 @@
 }
 
 .info {
-    margin-top: 0;
+    margin: auto;
+}
+
+.img-skills {
+    width: 4%;
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
 }
 
 @media screen and (max-width: 1000px) {
@@ -76,11 +85,19 @@
     .ImagenPerfil {
         width: 100%;
         align-items: center;
-        margin-top: 0vw;
-        width: 100%;
+        margin: auto;
     }
 
     .info {
         margin-top: -18vh;
+    }
+
+    .img-skills {
+        width: 12%;
+        border-radius: 3%;
+        -webkit-border-radius: 3%;
+        -moz-border-radius: 3%;
+        -ms-border-radius: 3%;
+        -o-border-radius: 3%;
     }
 }

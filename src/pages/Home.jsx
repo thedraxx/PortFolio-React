@@ -32,7 +32,7 @@ export const Home = () => {
         </div>
       </div>
 
-      <div className="info row box bg-danger ">
+      <div className="info row box bg-danger  ">
         <div className="col-12 ">
           <div className="justify-content-center d-flex ">
             <div className="text-center">
