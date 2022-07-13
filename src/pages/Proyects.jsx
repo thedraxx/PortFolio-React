@@ -26,7 +26,7 @@ export const Proyects = () => {
           <h6 className="text-center text-truncate text-capitalize ">
             AnimeList API (save your favorite anime)
           </h6>
-          <a href="https://629d3e65fd78671ff3ac9f77--listanimes.netlify.app/#/">
+          <a href="https://thedraxx.github.io/AnimeReact/">
             <img
               className="imgProyect w-100 mb-4 rounded"
               src={animelist}
