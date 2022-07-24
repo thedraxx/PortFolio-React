@@ -72,27 +72,15 @@ export const Proyects = () => {
           </a>
         </div>
       </div>
-      <div className=" info row box  bg-danger accordion-body mt-5 ">
+      {/* Aca estan las skills */}
+      <div className="info row box bg-danger accordion-body  ">
         <div className="col-12 ">
           <div className="justify-content-center d-flex ">
             <div className="text-center">
-              <div className="textBio accordion-body accordion-flush ">
-                <h5 className="text-center accordion-body accordion-flush ">
-                  <p className=" accordion-body  accordion-flush ">
-                    I'm <b>Francisco</b>
-                  </p>
-                  I'm 22 years old I'm from Argentina 🇦🇷 Front-End Developer Who
-                  love building Digital Products.
+              <div className="textBio accordion-body ">
+                <h5 className="text-footer">
+                  make your dreams come true... 🧉 © 2022
                 </h5>
-                <div className="containerIconos mx-auto mt-2 col-md-auto">
-                  <i className="fa-brands fa-react fa-3x mx-2 mt-auto"></i>
-                  <i className="fa-brands fa-js-square  fa-3x mx-2 mt-auto"></i>
-                  <i className="fa-brands fa-html5  fa-3x mx-2 mt-auto"></i>
-                  <i className="fa-brands fa-css3-alt  fa-3x mx-2 mt-auto"></i>
-                  <i className="fa-brands fa-bootstrap fa-3x mx-2 mt-auto"></i>
-                  <i className="fa-brands fa-sass  fa-3x mx-2 mt-auto"></i>
-                  <i className="fa-brands fa-git-alt fa-3x mx-2 mt-auto"></i>
-                </div>
               </div>
             </div>
           </div>

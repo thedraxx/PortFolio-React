@@ -17,7 +17,6 @@
 .title {
     font-size: 4rem;
     font-weight: bold;
-
 }
 
 .subtitle {
@@ -43,6 +42,14 @@
 
 .info {
     margin: auto;
+    font-size: 50px;
+}
+
+.text-footer {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: auto;
+    margin-top: auto;
 }
 
 .img-skills {
@@ -67,6 +74,7 @@
 
     .contenedor {
         margin-top: 10vh;
+        margin-bottom: 50px;
     }
 
     .title {
@@ -89,15 +97,34 @@
     }
 
     .info {
-        margin-top: -18vh;
+        margin-top: auto;
     }
 
-    .img-skills {
-        width: 12%;
-        border-radius: 3%;
-        -webkit-border-radius: 3%;
-        -moz-border-radius: 3%;
-        -ms-border-radius: 3%;
-        -o-border-radius: 3%;
+    .contenedor-skills {
+        width: auto;
+        margin-bottom: 5vh;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 580px) {
+    .contenedor-skills {
+        width: 50%;
+        margin-bottom: 5vh;
+    }
+
+    .texto-skills {
+        font-size: 1rem;
+        font-weight: bold;
+        margin: auto;
+    }
+
+    .imagen {
+        width: 60%;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    .info {
+        margin-top: auto;
     }
 }

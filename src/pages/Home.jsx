@@ -1,8 +1,9 @@
+import "../styles/home.css";
+import "animate.css";
+import image from "../images/profile.jpg";
 import React from "react";
 import TypewriterComponent from "typewriter-effect";
-import "../styles/home.css";
-import image from "../images/profile.jpg";
-import "animate.css";
+import { Container } from "react-bootstrap";
 export const Home = () => {
   return (
     // Aca esta es la forma de hacer una animacion con animate.css
@@ -35,29 +36,82 @@ export const Home = () => {
         </div>
       </div>
 
+      <Container className="mt-auto p-0">
+        {/* Otros */}
+        <div className="contenedor-skills content border border-4 mt-auto p-4 ">
+          <h1 className="texto-skills mt-auto font-weight-bold texto-skills">
+            Frontend
+          </h1>
+          <div className="row mx-auto container-fluid">
+            <img
+              src="https://www.svgrepo.com/show/303206/javascript-logo.svg"
+              alt=""
+              className="imagen col-md-2 offset-md-0 col-sm-2 offset-sm-0 col-xs-2 offset-xs-0"
+            />
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/react-2.svg"
+              alt=""
+              className="imagen  col-md-2 offset-md-0 col-sm-2 offset-sm-0 col-xs-2 offset-xs-0 "
+            />
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/redux.svg"
+              alt=""
+              className="imagen col-md-2 offset-md-0 col-sm-2 offset-sm-0 col-xs-2 offset-xs-0 "
+            />
+
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/sass-1.svg"
+              alt=""
+              className="imagen  col-md-2 offset-md-0 col-sm-2 offset-sm-0 col-xs-2 offset-xs-0 "
+            />
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/styled-components-1.svg"
+              alt=""
+              className="imagen col-md-2 offset-md-0 col-sm-2 offset-sm-0 col-xs-2 offset-xs-0 "
+            />
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/bootstrap-4.svg"
+              alt=""
+              className="imagen col-md-2 offset-md-0 col-sm-2 offset-sm-0 col-xs-2 offset-xs-0 "
+            />
+          </div>
+        </div>
+
+        {/* Otros */}
+        <div className="contenedor-skills content border border-4 mt-auto p-4">
+          <h1 className="texto-skills mt-auto font-weight-bold texto-skills">
+            Others
+          </h1>
+          <div className="row mx-auto container-fluid ">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/512px-Adobe_Photoshop_CC_icon.svg.png?20200616073617"
+              alt=""
+              className="imagen  col-md-2 offset-md-0 col-sm-2 offset-sm-0 col-xs-2 offset-xs-0 "
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/512px-Adobe_Premiere_Pro_CC_icon.svg.png?20210729021549"
+              alt=""
+              className="imagen col-md-2 offset-md-0 col-sm-2 offset-sm-0 col-xs-2 offset-xs-0 "
+            />
+
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1024px-Git_icon.svg.png?20120525234412"
+              alt=""
+              className="imagen  col-md-2 offset-md-0 col-sm-2 offset-sm-0 col-xs-2 offset-xs-0 "
+            />
+          </div>
+        </div>
+      </Container>
+
       {/* Aca estan las skills */}
-      <div className="info row box bg-danger  ">
+      <div className="info row box bg-danger accordion-body ">
         <div className="col-12 ">
           <div className="justify-content-center d-flex ">
             <div className="text-center">
-              <div className="textBio accordion-body accordion-flush ">
-                <h5 className="text-center ">
-                  <p className=" accordion-body  accordion-flush">
-                    I'm <b>Francisco</b>
-                  </p>
-                  I'm 22 years old I'm from Argentina 🇦🇷 Front-End Developer Who
-                  love building Digital Products.
+              <div className="textBio accordion-body ">
+                <h5 className="text-footer ">
+                  make your dreams come true... 🧉 © 2022
                 </h5>
-                <p>Knowledge In: </p>
-                <div className="mx-auto mt-2 col-md-auto">
-                  <i className="fa-brands fa-react fa-3x mx-2 mt-auto"></i>
-                  <i className="fa-brands fa-js-square  fa-3x mx-2 mt-auto"></i>
-                  <i className="fa-brands fa-html5  fa-3x mx-2 mt-auto"></i>
-                  <i className="fa-brands fa-css3-alt  fa-3x mx-2 mt-auto"></i>
-                  <i className="fa-brands fa-bootstrap fa-3x mx-2 mt-auto"></i>
-                  <i className="fa-brands fa-sass  fa-3x mx-2 mt-auto"></i>
-                  <i className="fa-brands fa-git-alt fa-3x mx-2 mt-auto"></i>
-                </div>
               </div>
             </div>
           </div>
