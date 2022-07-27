@@ -12,16 +12,16 @@ export const Home = () => {
       <div className="container mt-auto ">
         <div className=" contenedor content  ">
           <h1 className="title animate__animated animate__bounceInRight">
-            Hello!
+            Hola!
           </h1>
           <h1 className="subtitle animate__animated animate__bounceInRight">
             <TypewriterComponent
               onInit={(typewriter) => {
                 typewriter
-                  .typeString("Nice to meet You...")
+                  .typeString("Un placer conocerle...")
                   .pauseFor(300)
                   .deleteAll()
-                  .typeString("I'm Frontend Developer!")
+                  .typeString("Soy Desarrollador Frontend!")
                   .start();
               }}
             />
@@ -85,7 +85,7 @@ export const Home = () => {
         {/* Otros */}
         <div className="contenedor-skills content border border-4 mt-auto p-4 ">
           <h1 className="texto-skills mt-auto font-weight-bold texto-skills">
-            Others
+            Otros
           </h1>
           <div className="row mx-auto container-fluid">
             <img

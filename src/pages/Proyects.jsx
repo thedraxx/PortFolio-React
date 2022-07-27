@@ -14,7 +14,7 @@ export const Proyects = () => {
         {/* Primera columna */}
         <div className=" col-lg-4 mb-4 ">
           <h6 className="text-center text-truncate text-capitalize ">
-            MoviesApp (check the rank of your favorite movies)
+            Movies-App (Mira la clasificacion de tu pelicula favorita)
           </h6>
           <a href="https://thedraxx.github.io/Movie-App/">
             <img
@@ -24,7 +24,7 @@ export const Proyects = () => {
             />
           </a>
           <h6 className="text-center text-truncate text-capitalize ">
-            AnimeList API (save your favorite anime)
+            AnimeList API (Guarda tu anime Favorito)
           </h6>
           <a href="https://thedraxx.github.io/AnimeReact/">
             <img
@@ -38,14 +38,14 @@ export const Proyects = () => {
         {/* Segundo columna */}
         <div className="col-lg-4 mb-4">
           <h6 className="text-center text-truncate text-capitalize ">
-            Gif Generator (Generate a gif from a text)
+            Gif Generator (Genera Gif a partir de un texto)
           </h6>
           <a href="https://thedraxx.github.io/REACT--GeneratorsGif/">
             <img className="imgProyect w-100 mb-4 rounded" src={gif} alt="" />
           </a>
 
           <h6 className="text-center text-truncate text-capitalize ">
-            Song Finder (find a song from a text)
+            Song Finder (Encuentra la letra de tu cancion)
           </h6>
           <a href="https://thedraxx.github.io/SongFinderREACT/">
             <img className="imgProyect w-100 mb-4 rounded" src={song} alt="" />
@@ -54,7 +54,7 @@ export const Proyects = () => {
 
         <div className="col-lg-4 mb-4">
           <h6 className="text-center text-truncate text-capitalize ">
-            PokeAPI (find a pokemon)
+            PokeAPI (Encuentra informacion de un pokemon)
           </h6>
           <a href="https://thedraxx.github.io/PokeApi/">
             <img
@@ -65,7 +65,7 @@ export const Proyects = () => {
           </a>
 
           <h6 className="text-center text-truncate text-capitalize ">
-            HeroList (search and find a hero)
+            HeroList (Busca tu heroe favorito)
           </h6>
           <a href="https://thedraxx.github.io/heroes-app-React/">
             <img className="imgProyect w-100 mb-4 rounded" src={hero} alt="" />
@@ -73,13 +73,13 @@ export const Proyects = () => {
         </div>
       </div>
       {/* Aca estan las skills */}
-      <div className="info row box bg-danger accordion-body  ">
-        <div className="col-12 ">
-          <div className="justify-content-center d-flex ">
+      <div className="info row box accordion-body p-auto m-auto ">
+        <div className="col-12  ">
+          <div className="justify-content-center d-flex  ">
             <div className="text-center">
-              <div className="textBio accordion-body ">
-                <h5 className="text-footer">
-                  make your dreams come true... 🧉 © 2022
+              <div className="textBio accordion-body  accordion-flush ">
+                <h5 className="text-footer" style={{ fontSize: "15px" }}>
+                  Portafolio hecho en base a mates y React🧉 © 2022
                 </h5>
               </div>
             </div>

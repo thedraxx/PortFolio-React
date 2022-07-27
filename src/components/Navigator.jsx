@@ -18,7 +18,7 @@ export const Navigator = () => {
       <Container>
         {/* GracIas al useSelector podemos revisar el estado de la aplicacion y cambiar a modo oscuro o claro */}
         <Navbar.Brand className={!active ? "text-dark" : "text-light"}>
-          PortFolio
+          PortaFolio
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end ">
@@ -27,14 +27,14 @@ export const Navigator = () => {
             className={` links ${!active ? "text-dark" : "text-light"}`}
             style={{ textDecoration: "none" }}
           >
-            Home
+            Inicio
           </Link>
           <Link
             to="/proyects"
             className={` links ${!active ? "text-dark" : "text-light"}`}
             style={{ textDecoration: "none" }}
           >
-            Proyects
+            Proyectos
           </Link>
 
           <Nav.Link
