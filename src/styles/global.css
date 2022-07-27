@@ -5,26 +5,4 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
-    cursor: none;
-}
-
-.cursor {
-    background-color: rgb(80, 80, 80);
- height: 32px;
- width: 32px;
- border-radius: 50%;
- -webkit-border-radius: 50%;
- -moz-border-radius: 50%;
- -ms-border-radius: 50%;
- -o-border-radius: 50%;
- position: fixed;
- top: 0;
- left: 0;
-
-}
-
-@media screen and (max-width: 820px) {
-    .cursor {
-        display: none;
-    }
 }

@@ -90,6 +90,12 @@
         margin: auto;
     }
 
+    .subtitle2 {
+        font-weight: bold;
+        margin: auto;
+        align-items: center;
+    }
+
     .ImagenPerfil {
         width: 100%;
         align-items: center;
@@ -106,9 +112,9 @@
     }
 }
 
-@media (min-width: 400px) and (max-width: 580px) {
+@media (min-width: 300px) and (max-width: 600px) {
     .contenedor-skills {
-        width: 50%;
+        width: 55%;
         margin-bottom: 5vh;
     }
 
