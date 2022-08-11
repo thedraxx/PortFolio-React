@@ -1,23 +1,33 @@
 import React from 'react'
-import TextExample from '../../../components/cards/cards'
-import { ContainerProjects, ContainerSkills, Proyects, SkillsName, SkillsTitle, TitleSkills } from './style'
+import { useSelector } from 'react-redux'
+import ProyectTemplate from '../../../components/cards/cards'
+import {
+  ContainerProjects,
+  ContainerSkills,
+  Proyects,
+  SkillsName,
+  SkillsTitle,
+  TitleSkills
+} from './style'
 
-const Skills = () => (
+const Skills = () => {
+  const { projects } = useSelector((state) => state.projects)
+  console.log(projects)
+  return (
     <ContainerSkills>
       <SkillsTitle>
         <TitleSkills>Crafted with love.</TitleSkills>
         <SkillsName>By Matias Toledo</SkillsName>
       </SkillsTitle>
       <ContainerProjects>
-        <Proyects>
-        <TextExample />   <TextExample />
-        </Proyects>
-        <Proyects>
-        <TextExample />   <TextExample />
-        </Proyects>
-      </ContainerProjects>
-
+        {projects.map((project) => (
+          <Proyects key={project.id}>
+            <ProyectTemplate project={project} />
+          </Proyects>
+        ))}
+     </ContainerProjects>
     </ContainerSkills>
-)
+  )
+}
 
 export default Skills

@@ -23,7 +23,6 @@ const Bio = () => (
           </ContainerInfo>
         </div>
       </ContainerGeneral>
-      <hr />
     </SuperContainer>
 )
 export default Bio
