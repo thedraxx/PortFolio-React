@@ -6,6 +6,7 @@ export const ContainerSkills = styled.div`
   display: flex;
   flex: 1;
   flex-direction: column;
+  margin-bottom: 50px;
 `
 export const SkillsTitle = styled.div`
   width: 100%;
@@ -56,7 +57,7 @@ export const Proyects = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin-bottom: auto;
 
   @media screen {
     @media (max-width: 1000px) {

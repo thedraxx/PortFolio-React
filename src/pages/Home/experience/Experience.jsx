@@ -15,8 +15,8 @@ import {
 } from './style'
 
 const Experience = () => (
-  <ContainerExperience>
-    <SubContainerExperience>
+  <ContainerExperience >
+    <SubContainerExperience >
       <TitleExperience>Experience.</TitleExperience>
       <ExperienceSub>a little tour of my traing studies</ExperienceSub>
 
