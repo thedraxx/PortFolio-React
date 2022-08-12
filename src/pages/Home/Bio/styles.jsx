@@ -32,7 +32,7 @@ export const ContainerGeneral = styled.div`
 
 export const ImageProfile = styled.img`
     width: 70%;
-    border-radius: 1400px;
+    border-radius: 100px;
     margin: auto;
     margin-left:100px;
     @media screen {
