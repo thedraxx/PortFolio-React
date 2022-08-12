@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { Routes, Route } from 'react-router-dom'
+import Experience from '../pages/Home/experience/Experience'
 import Home from '../pages/Home/Home'
 
 export const Rutas = () => {
