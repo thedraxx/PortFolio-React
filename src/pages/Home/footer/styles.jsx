@@ -25,3 +25,10 @@ export const Matecito = styled.h3`
     font-size: 15px;
     margin-top: 10px;
 `
+
+export const Img = styled.img`
+    margin-top: 20px;
+    width: 20%;
+
+
+`

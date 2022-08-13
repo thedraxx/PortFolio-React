@@ -22,20 +22,6 @@ export const Navigator = () => {
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end ">
-          <Link
-            to="/"
-            className={` links ${!active ? 'text-dark' : 'text-light'}`}
-            style={{ textDecoration: 'none' }}
-          >
-            Inicio
-          </Link>
-          <Link
-            to="/proyects"
-            className={` links ${!active ? 'text-dark' : 'text-light'}`}
-            style={{ textDecoration: 'none' }}
-          >
-            Proyectos
-          </Link>
 
           <Nav.Link
             style={{
