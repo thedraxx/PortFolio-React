@@ -15,8 +15,8 @@ const Skills = () => {
   return (
     <ContainerSkills>
       <SkillsTitle>
-        <TitleSkills>Crafted with love.</TitleSkills>
-        <SkillsName>By Matias Toledo</SkillsName>
+        <TitleSkills>Some of my projects</TitleSkills>
+        <SkillsName>By Francisco Cerrano</SkillsName>
       </SkillsTitle>
       <ContainerProjects>
         {projects.map((project) => (

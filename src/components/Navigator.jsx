@@ -2,7 +2,6 @@ import React from 'react'
 import { Navbar, Container, Nav } from 'react-bootstrap'
 import { useSelector, useDispatch } from 'react-redux'
 import { setActive } from '../store/slice/mode/modeActiveSlice'
-import { Link } from 'react-router-dom'
 import '../styles/global.css'
 
 // El navbar
@@ -14,7 +13,7 @@ export const Navigator = () => {
   const { active } = useSelector((state) => state.isActive)
 
   return (
-    <Navbar>
+    <Navbar style={{ position: 'relative', zIndex: 999 }}>
       <Container>
         {/* GracIas al useSelector podemos revisar el estado de la aplicacion y cambiar a modo oscuro o claro */}
         <Navbar.Brand className={!active ? 'text-dark' : 'text-light'}>

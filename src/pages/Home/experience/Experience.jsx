@@ -17,7 +17,7 @@ import {
 const Experience = () => (
   <ContainerExperience>
     <SubContainerExperience>
-      <TitleExperience>Experience.</TitleExperience>
+      <TitleExperience>Training.</TitleExperience>
       <ExperienceSub>a little tour of my traing studies</ExperienceSub>
       <ContainerStudies>
         <ContainerProject>
