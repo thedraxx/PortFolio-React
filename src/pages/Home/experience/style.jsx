@@ -16,7 +16,7 @@ export const SubContainerExperience = styled.div`
   margin-left: 30px;
 
   @media screen {
-    @media (max-width: 1000px) {
+    @media (max-width: 1100px) {
       margin: auto;
       align-items: center;
     }
@@ -40,7 +40,7 @@ export const ContainerProjects = styled.div`
   margin: auto;
 
   @media screen {
-    @media (max-width: 1000px) {
+    @media (max-width: 1100px) {
       width: 100%;
       display: flex;
       align-items: center;
@@ -60,7 +60,7 @@ export const Proyects = styled.div`
   margin: 20px;
 
   @media screen {
-    @media (max-width: 1000px) {
+    @media (max-width: 1100px) {
       flex-direction: column;
       margin: auto;
       padding: auto;
@@ -78,7 +78,7 @@ export const ContainerStudies = styled.div`
   flex: 1;
 
   @media screen {
-    @media (max-width: 1000px) {
+    @media (max-width: 1100px) {
       width: 100%;
       flex-direction: column;
       justify-content: center;
@@ -94,10 +94,10 @@ export const ContainerProject = styled.div`
   justify-content: center;
   align-items: start;
   margin: 20px;
-  border-top: 2px outset #2f2f2f;
+  border-top: 2px outset #b7b7b7;
 
   @media screen {
-    @media (max-width: 1000px) {
+    @media (max-width: 1100px) {
       width: 100%;
       height: 100%;
       display: flex;
@@ -113,10 +113,10 @@ export const TitleProject = styled.h1`
   font-size: 1.5rem;
   font-weight: bold;
 `
-export const SubTitleProject = styled.h2`
-  font-size: 1.2rem;
-  font-weight: bold;
-`
+// export const SubTitleProject = styled.h2`
+//   font-size: 1.2rem;
+//   font-weight: bold;
+// `
 export const ContainerLanguages = styled.div`
   width: 100%;
   display: flex;
@@ -124,8 +124,9 @@ export const ContainerLanguages = styled.div`
   justify-content: start;
   flex: 1;
 
+
   @media screen {
-    @media (max-width: 1000px) {
+    @media (max-width: 1100px) {
       width: 100%;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -141,6 +142,7 @@ export const Languages = styled.h3`
   padding: 10px;
   border-radius: 10px;
   color: black;
+  position: sticky;
 `
 export const ContainerInfo = styled.div`
   width: 90%;

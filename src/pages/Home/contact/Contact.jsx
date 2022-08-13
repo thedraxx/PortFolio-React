@@ -1,9 +1,9 @@
 import React from 'react'
 import { FormSubmit } from '../../../components/form/FormSubmit'
-import { ContactMe, ContainerText, TitleContact, TextContact } from './style'
+import { ContactMe, ContainerText, TitleContact, TextContact, ContainerContact } from './style'
 
 const Contact = () => (
-    <>
+    <ContainerContact>
     <ContactMe>
         <ContainerText>
             <TitleContact>{'let\'s make something great!'}</TitleContact>
@@ -12,7 +12,7 @@ const Contact = () => (
 
     </ContactMe>
     <FormSubmit />
-    </>
+    </ContainerContact>
 )
 
 export default Contact

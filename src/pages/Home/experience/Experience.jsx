@@ -9,95 +9,68 @@ import {
   InfoTitle,
   Languages,
   SubContainerExperience,
-  SubTitleProject,
+  // SubTitleProject,
   TitleExperience,
   TitleProject
 } from './style'
 
 const Experience = () => (
-  <ContainerExperience >
-    <SubContainerExperience >
+  <ContainerExperience>
+    <SubContainerExperience>
       <TitleExperience>Experience.</TitleExperience>
       <ExperienceSub>a little tour of my traing studies</ExperienceSub>
-
       <ContainerStudies>
         <ContainerProject>
-          <TitleProject>FullStack Developer</TitleProject>
-          <SubTitleProject>APX</SubTitleProject>
+          <TitleProject>FrontEnd Developer</TitleProject>
           <ContainerLanguages>
-            <Languages>React</Languages>
-            <Languages>Typescript</Languages>
-            <Languages>Node.js</Languages>
-            <Languages>Git</Languages>
-            <Languages>SQL</Languages>
-            <Languages>NoSQL</Languages>
-            <Languages>HTML</Languages>
+            <Languages>Javascript</Languages>
+            <Languages>HTML5</Languages>
             <Languages>CSS</Languages>
+            <Languages>Git</Languages>
+            <Languages>Photoshop</Languages>
+            <Languages>Premiere</Languages>
           </ContainerLanguages>
           <ContainerInfo>
             <InfoTitle>
-              In this career I learned the fundamentals of object-oriented
-              programming, developing webapps with Javascript, Typescript and
-              React, in which I applied knowledge of state management, hooks,
-              react-router, webpack, babel, swr and server-side-rendering. I
-              also learned how to deploy REST APIS with Node JS and Typescript
-              on top of Express.js and Next.js. Following the MVC design pattern
-              and using non-relational databases such as Firestore/Firebase as
-              well as relational databases such as PostgreSQL.
+              In this first stage of my studies, I started learning with the
+              fundamentals of HTML5, CSS & JavaScript, also I started using
+              tools like Trello, photoshop & premiere also learned how to use
+              APIs for consume, this was a great step for me and at this stage I
+              also began to fall in love with this whole world.
             </InfoTitle>
           </ContainerInfo>
         </ContainerProject>
 
         <ContainerProject>
-          <TitleProject>FullStack Developer</TitleProject>
-          <SubTitleProject>APX</SubTitleProject>
+          <TitleProject>React Developer</TitleProject>
           <ContainerLanguages>
             <Languages>React</Languages>
-            <Languages>Typescript</Languages>
-            <Languages>Node.js</Languages>
-            <Languages>Git</Languages>
-            <Languages>SQL</Languages>
-            <Languages>NoSQL</Languages>
-            <Languages>HTML</Languages>
-            <Languages>CSS</Languages>
+            <Languages>Redux</Languages>
+            <Languages>SCSS</Languages>
+            <Languages>Styled-Component</Languages>
           </ContainerLanguages>
           <ContainerInfo>
             <InfoTitle>
-              In this career I learned the fundamentals of object-oriented
-              programming, developing webapps with Javascript, Typescript and
-              React, in which I applied knowledge of state management, hooks,
-              react-router, webpack, babel, swr and server-side-rendering. I
-              also learned how to deploy REST APIS with Node JS and Typescript
-              on top of Express.js and Next.js. Following the MVC design pattern
-              and using non-relational databases such as Firestore/Firebase as
-              well as relational databases such as PostgreSQL.
+              In this Second Stage I started learning React JS, this was a great
+              experience and I fall in love with this technology, I was
+              understanding technology like React-Redux, the use of store,
+              Styled-Components for the styles.
             </InfoTitle>
           </ContainerInfo>
         </ContainerProject>
 
         <ContainerProject>
-          <TitleProject>FullStack Developer</TitleProject>
-          <SubTitleProject>APX</SubTitleProject>
+          <TitleProject>React Native Developer</TitleProject>
           <ContainerLanguages>
-            <Languages>React</Languages>
+            <Languages>React Native</Languages>
             <Languages>Typescript</Languages>
-            <Languages>Node.js</Languages>
-            <Languages>Git</Languages>
-            <Languages>SQL</Languages>
-            <Languages>NoSQL</Languages>
-            <Languages>HTML</Languages>
-            <Languages>CSS</Languages>
           </ContainerLanguages>
           <ContainerInfo>
             <InfoTitle>
-              In this career I learned the fundamentals of object-oriented
-              programming, developing webapps with Javascript, Typescript and
-              React, in which I applied knowledge of state management, hooks,
-              react-router, webpack, babel, swr and server-side-rendering. I
-              also learned how to deploy REST APIS with Node JS and Typescript
-              on top of Express.js and Next.js. Following the MVC design pattern
-              and using non-relational databases such as Firestore/Firebase as
-              well as relational databases such as PostgreSQL.
+              {`Today I'm learning React-Native, I have a lot of ideas and a lot
+              of things that I want to do with this, the simple idea of made app
+              for the people makes me happy and I really want to do more and
+              more!`}
             </InfoTitle>
           </ContainerInfo>
         </ContainerProject>

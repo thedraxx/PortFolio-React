@@ -1,10 +1,19 @@
 import styled from 'styled-components'
 
+export const ContainerContact = styled.div`
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    margin-top:50px
+
+`
+
 export const ContactMe = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
   flex: 1;
+  
 `
 export const ContainerText = styled.div`
   display: flex;
