@@ -12,7 +12,6 @@ import {
 
 const Skills = () => {
   const { projects } = useSelector((state) => state.projects)
-  console.log(projects)
   return (
     <ContainerSkills>
       <SkillsTitle>

@@ -7,11 +7,7 @@ export const modeActiveSlice = createSlice({
   },
   reducers: {
     setActive: (state) => {
-      if (state.active) {
-        state.active = false
-      } else {
-        state.active = true
-      }
+      state.active = !state.active
     }
   }
 })

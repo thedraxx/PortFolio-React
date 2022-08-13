@@ -1,5 +1,4 @@
 import '../../../styles/home.css'
-import 'animate.css'
 import React from 'react'
 import {
   ContainerBio,

@@ -20,3 +20,8 @@ export const SubTextFooter = styled.div`
     font-size: 20px;
 
 `
+export const Matecito = styled.h3`
+      color: #ffffff;
+    font-size: 15px;
+    margin-top: 10px;
+`
