@@ -5,6 +5,7 @@ import {
   ContainerGeneral,
   ContainerInfo,
   ContainerText,
+  Enphasis,
   ImageProfile,
   SuperContainer,
   TextBio,
@@ -35,8 +36,8 @@ const Bio = () => (
             <ContainerBio>
               <TextBio>
                 {' '}
-                {` Hi I'm Matias Toledo. A passionate FullStack Developer and student based in Argentina.
-                I started my path as a developer almost 2 years ago and I fell in love with the idea of being able to create websites and apps that solve people's problems and at the same time provide them with a good experience. I am a proactive, organized, responsible person, attentive to detail and constantly learning. if you're looking for a developer to add to your team, I'd love to hear from you!`}
+                {' Hi I\'m Francisco a passionate'} <Enphasis> Frontend Developer</Enphasis> {` and student living in Argentina.
+                I started in this world as a developer almost 2 years ago, in 2020 and I  have serious passion for creating intuitive, dynamic user experiences! also I love to learn new things and I'm always looking for new challenges to compete. `}
               </TextBio>
             </ContainerBio>
           </ContainerText>

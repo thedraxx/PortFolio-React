@@ -114,3 +114,9 @@ export const ContainerText = styled.div`
         }   
     }
 `
+
+export const Enphasis = styled.span`
+    color: #e31b6d;
+    font-weight: bold;
+    text-decoration: dashed;
+`

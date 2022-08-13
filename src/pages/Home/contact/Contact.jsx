@@ -1,16 +1,18 @@
 import React from 'react'
-import { ContactMe, ContainerText, Hello, TextContact } from './style'
+import { FormSubmit } from '../../../components/form/FormSubmit'
+import { ContactMe, ContainerText, TitleContact, TextContact } from './style'
 
 const Contact = () => (
+    <>
     <ContactMe>
         <ContainerText>
-            <Hello>Just say hi.</Hello>
-            <TextContact>  Do you fancy saying hi to me or do you have an interesting project that you think I can provide value? Feel free to contact me.  </TextContact>
+            <TitleContact>{'let\'s make something great!'}</TitleContact>
+            <TextContact>  Have a question or want to work together? </TextContact>
         </ContainerText>
-        <div>
-            {/* form */}
-        </div>
+
     </ContactMe>
+    <FormSubmit />
+    </>
 )
 
 export default Contact

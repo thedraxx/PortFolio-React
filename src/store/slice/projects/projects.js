@@ -29,8 +29,8 @@ export const projectSlice = createSlice({
     },
     {
       id: Math.random(),
-      name: 'As a final challenge of the App Development course. Make an app from the \'Lost Pets\' project. It was developed using React Native, Javascript and Expo as a framework with deployment capabilities for both Android and iOS.',
-      description: 'This is a project',
+      name: 'MyAnimeList Project',
+      description: 'A FrontEnd Project simulating an Anime App, I was use of inspiration Crunchyroll for the design and the functionality of this is checking the most popular anime of the moment and save this to watch later, plus when you finish this you can delete that.',
       src: 'https://i.postimg.cc/KjCHydQT/Macbook-Pro-Dark-Background.png',
       link: '',
       github: ''
