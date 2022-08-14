@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import myvideo from '../../../assets/video/abstract.mp4'
+import { colors } from '../../../utilities/colors'
 
 export const SuperContainer = styled.div`
   margin: auto;
@@ -122,7 +123,7 @@ export const ContainerText = styled.div`
 `
 
 export const Enphasis = styled.span`
-  color: #e31b6d;
+  color: ${colors.red};
   font-weight: bold;
   text-decoration: dashed;
 `
@@ -137,6 +138,7 @@ export const ContentWelcome = styled.div`
   align-items: center;
   justify-content: center;
   z-index: 1;
+  color: ${colors.white};
   
 `
 export const TextWelcome = styled.h1`

@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { colors } from '../../../utilities/colors'
 
 export const SuperFooter = styled.footer`
   display: flex;
@@ -7,17 +8,17 @@ export const SuperFooter = styled.footer`
   align-items: center;
   flex: 1;
   padding: 50px;
-  background-color: #000000;
+  background-color: ${colors.black};
 `
 
 export const TextFooter = styled.div`
-  color: #ffffff;
+  color: ${colors.white};
   font-size: 35px;
   font-weight: bold;
 
   @media screen {
     @media (max-width: 1000px) {
-      color: #ffffff;
+      color: ${colors.white};
       font-size: 30px;
       text-align:center;
       margin-bottom:20px;
@@ -25,18 +26,18 @@ export const TextFooter = styled.div`
   }
 `
 export const SubTextFooter = styled.div`
-  color: #ffffff;
+  color: ${colors.white};
   font-size: 20px;
 
   @media screen {
     @media (max-width: 1000px) {
-      color: #ffffff;
+      color:${colors.white};
       font-size: 15px;
     }
   }
 `
 export const Matecito = styled.h3`
-  color: #ffffff;
+  color: ${colors.white};
   font-size: 15px;
   margin-top: 10px;
 `
