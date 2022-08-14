@@ -19,6 +19,8 @@ export const TextFooter = styled.div`
     @media (max-width: 1000px) {
       color: #ffffff;
       font-size: 30px;
+      text-align:center;
+      margin-bottom:20px;
     }
   }
 `
