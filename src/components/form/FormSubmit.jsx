@@ -9,6 +9,7 @@ import {
   ContainerInputs,
   CustomInput
 } from './style'
+import Swal from 'sweetalert2'
 
 export const FormSubmit = () => {
   const form = useRef()
@@ -20,16 +21,33 @@ export const FormSubmit = () => {
     message: ''
   })
 
-  const { searchText } = formValues
+  const { name, email, message } = formValues
 
   const sendEmail = (e) => {
     e.preventDefault()
-    emailjs.sendForm('service_qksi4tc', 'template_zqzc909', form.current, 'ywb4feFd4jk6dBlo8')
-      .then((result) => {
-        alert('Mensaje enviado correctamente')
-      }, (error) => {
-        console.log(error.text)
-      })
+
+    if (name === '' && email === '' && message === '') {
+      alert('Todos los campos son obligatorios')
+    } else if (name === '' && email === '') {
+      alert('El nombre y el email son obligatorios')
+    } else if (name === '' && message === '') {
+      alert('El nombre y el mensaje son obligatorios')
+    } else if (email === '' && message === '') {
+      alert('El email y el mensaje son obligatorios')
+    } else {
+      emailjs.sendForm('service_qksi4tc', 'template_zqzc909', form.current, 'ywb4feFd4jk6dBlo8')
+        .then((result) => {
+          Swal.fire({
+            title: 'Cool!',
+            text: 'Thank you for send me a message!.',
+            imageUrl: 'https://64.media.tumblr.com/31fad3e803b480028122e110de492529/12822f2403faf192-e9/s1280x1920/1c161cac0fdcaf3d614634953806f675b4cf9922.png',
+            imageWidth: '100%',
+            imageAlt: 'Custom image'
+          })
+        }, (error) => {
+          console.log(error.text)
+        })
+    }
   }
 
   return (
@@ -44,7 +62,7 @@ export const FormSubmit = () => {
               className="form-control"
               name="name"
               autoComplete="off"
-              value={searchText}
+              value={name}
               onChange={handleInputChange}
 
             />
@@ -55,7 +73,7 @@ export const FormSubmit = () => {
               className="form-control"
               name="email"
               autoComplete="off"
-              value={searchText}
+              value={email}
               onChange={handleInputChange}
             />
             <CustomInput
@@ -65,7 +83,7 @@ export const FormSubmit = () => {
               className="form-control"
               name="message"
               autoComplete="off"
-              value={searchText}
+              value={message}
               onChange={handleInputChange}
             />
             <ButtonSubmit type="submit" active={active}>Submit</ButtonSubmit>
