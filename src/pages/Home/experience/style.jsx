@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { colors } from '../../../utilities/colors'
 
 export const ContainerExperience = styled.div`
   width: 100%;
@@ -94,7 +95,7 @@ export const ContainerProject = styled.div`
   justify-content: center;
   align-items: start;
   margin: 20px;
-  border-top: 2px outset #b7b7b7;
+  border-top: 2px outset ${colors.gray};
 
   @media screen {
     @media (max-width: 1100px) {
@@ -105,7 +106,7 @@ export const ContainerProject = styled.div`
       justify-content: center;
       align-items: center;
       margin: auto;
-      border-top: 1px outset #2f2f2f;
+      border-top: 1px outset ${colors.darkGray};
     }
   }
 `
@@ -138,10 +139,10 @@ export const ContainerLanguages = styled.div`
 export const Languages = styled.h3`
   font-size: 1rem;
   margin-left: 10px;
-  background-color: #d7d7d7;
+  background-color: ${colors.gray};
   padding: 10px;
   border-radius: 10px;
-  color: black;
+  color: ${colors.black};
   position: sticky;
 `
 export const ContainerInfo = styled.div`

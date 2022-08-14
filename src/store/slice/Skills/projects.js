@@ -6,7 +6,7 @@ export const projectSlice = createSlice({
     projects: [{
       id: Math.random(),
       name: 'Gif Generator',
-      description: 'A fullstack project simulating an e-commerce inspired by Boston Hype. Developed using Next.js and a capable based architecture where users can search and purchase products using MercadoPago as payment processor.',
+      description: 'A Frontend React Project, the first that I made, using the GIPHY API to get the GIF that you want, a simple but cool project for practice.',
       src: 'https://i.postimg.cc/7Yb7TSGR/Macbook-Pro-GIF.png',
       link: 'https://thedraxx.github.io/REACT--GeneratorsGif/',
       github: 'https://github.com/thedraxx/REACT--GeneratorsGif'
@@ -14,7 +14,7 @@ export const projectSlice = createSlice({
     {
       id: Math.random(),
       name: 'Wordle Clon',
-      description: 'A fullstack project developed with React and Express. Where the user can report his pet as lost by providing his location and see other lost pets near him to report them to their owners. I use different services like algolia, mapbox, cloudinary and jwt.',
+      description: 'A Frontend project developed with Javascript. I\'ts a recreation of the famous game of Wordle, the function I\'ts similar to the original, so if you know the game, you can play it.',
       src: 'https://i.postimg.cc/Frjx9b3g/Macbook-Pro-Wordle-Background.png',
       link: 'https://wordle-clon.netlify.app/',
       github: 'https://github.com/thedraxx/WordleClon'
@@ -22,7 +22,7 @@ export const projectSlice = createSlice({
     {
       id: Math.random(),
       name: 'To-do List App',
-      description: 'A component-oriented webapp based on HTML and JS. Using these components create a \'Rock, paper or scissors\' where users can play online with other people connecting to the same room using Firebase Real Time as a database',
+      description: 'An App using React Native, the first that I made, the idea is simple, a to-do app, there are a section to put the completed tasks and another for the pending ones. I\'m using TypeScript, styled components and Redux.',
       src: 'https://i.postimg.cc/N0RRjY9f/Macbook-Pro-Dark-Background.png',
       link: '',
       github: 'https://github.com/thedraxx/Todo-App-ReactNative'
@@ -30,7 +30,7 @@ export const projectSlice = createSlice({
     {
       id: Math.random(),
       name: 'MyAnimeList Project',
-      description: 'A FrontEnd Project simulating an Anime App, I was use of inspiration Crunchyroll for the design and the functionality of this is checking the most popular anime of the moment and save this to watch later, plus when you finish this you can delete that.',
+      description: 'A FrontEnd Project simulating an Anime App, I was use of inspiration Crunchyroll for the design and the functionality of this is checking the most popular anime of the moment and save this to watch later, plus when you finish this you can delete that. I\'m using React, Redux, Styled Components, SCSS and the API of MyAnimeList.',
       src: 'https://i.postimg.cc/KjCHydQT/Macbook-Pro-Dark-Background.png',
       link: 'https://thedraxx.github.io/AnimeReact/',
       github: 'https://github.com/thedraxx/AnimeReact'
