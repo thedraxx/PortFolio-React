@@ -2,7 +2,6 @@ import React from 'react'
 import Card from 'react-bootstrap/Card'
 import { useSelector } from 'react-redux'
 import { CardLink, ContainerLinks, CustomDiv, ImageCard, TitleCard, TittleDescription } from './style'
-import { Link } from 'react-router-dom'
 
 const ProyectTemplate = ({ project }) => {
   const { active } = useSelector((state) => state.isActive)
@@ -28,8 +27,8 @@ const ProyectTemplate = ({ project }) => {
             </Card.Text>
             <CardLink>
               <ContainerLinks>
-              <Link
-                to={project.link}
+              <a
+                href={project.link}
                 style={{
                   color: active ? '#ffffff' : 'black',
                   backgroundColor: active ? '#212529' : 'white',
@@ -37,9 +36,9 @@ const ProyectTemplate = ({ project }) => {
                 }}
               >
                 Preview
-              </Link>
-              <Link
-                to={project.github}
+              </a>
+              <a
+                href={project.github}
                 style={{
                   color: active ? '#ffffff' : 'black',
                   backgroundColor: active ? '#212529' : 'white',
@@ -47,7 +46,7 @@ const ProyectTemplate = ({ project }) => {
                 }}
               >
                 Repository
-              </Link>
+              </a>
               </ContainerLinks>
 
             </CardLink>
