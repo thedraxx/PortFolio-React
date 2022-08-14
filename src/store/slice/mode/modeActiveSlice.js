@@ -1,21 +1,14 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from '@reduxjs/toolkit'
 
 export const modeActiveSlice = createSlice({
-    name: 'modeActive',
-    initialState: {
-        active: false,
-    },
-    reducers: {
-        setActive: (state) => {
-            if (state.active) {
-                state.active = false;
-            } else {
-                state.active = true;
-            }
-        }
+  name: 'modeActive',
+  initialState: {
+    active: false
+  },
+  reducers: {
+    setActive: (state) => {
+      state.active = !state.active
     }
-});
-
-
-// Action creators are generated for each case reducer function
-export const { setActive } = modeActiveSlice.actions;
+  }
+})
+export const { setActive } = modeActiveSlice.actions

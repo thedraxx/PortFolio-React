@@ -1,7 +1,6 @@
-import React from "react";
-import { useSelector } from "react-redux";
-import { HashRouter, Routes, Route } from "react-router-dom";
-import { Proyects, Home } from "../pages";
+import React from 'react'
+import { Routes, Route } from 'react-router-dom'
+import Home from '../pages/Home/Home'
 
 export const Rutas = () => {
   return (
@@ -10,10 +9,10 @@ export const Rutas = () => {
         {/* Pnatalla principal */}
         <Route path="/" element={<Home />} />
         {/* Pantalla de Proyectos */}
-        <Route path="/proyects" element={<Proyects />} />
+        {/* <Route path="/proyects" element={} /> */}
         {/* Proteccion de la app, si escribis cualquier cosa te manda al home */}
         <Route path="/*" element={<Home />} />
       </Routes>
     </div>
-  );
-};
+  )
+}
