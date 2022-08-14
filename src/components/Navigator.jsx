@@ -52,7 +52,7 @@ export const Navigator = () => {
             {' '}
             <i className="fa-brands fa-github fa-1x mx-2 mt-auto"></i>
           </Nav.Link>
-          <Nav.Link
+          <a
             href="https://www.linkedin.com/in/cerranofrancisco/"
             className="Redirect"
             style={{
@@ -62,7 +62,7 @@ export const Navigator = () => {
           >
             {' '}
             <i className="fa-brands fa-linkedin fa-1x mx-2 mt-auto"></i>
-          </Nav.Link>
+          </a>
         </Navbar.Collapse>
       </Container>
     </Navbar>
