@@ -2,7 +2,6 @@ import React from 'react'
 import Card from 'react-bootstrap/Card'
 import { useSelector } from 'react-redux'
 import { CardLink, ContainerLinks, CustomDiv, ImageCard, TitleCard, TittleDescription } from './style'
-import { Link } from 'react-router-dom'
 
 const ProyectTemplate = ({ project }) => {
   const { active } = useSelector((state) => state.isActive)
