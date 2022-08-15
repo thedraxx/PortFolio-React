@@ -39,9 +39,9 @@ fortawesome:6.1.1
 ```
 animate.css: ^4.1.1
 ```
-## 🤍 Versión de framer-motion
+## 🤍 Versión de Styled-Components
 ```
-framer-motion: ^6.3.16
+Styled-Components: 5.3.5
 ```
 ## 🔮 Futuro del Proyecto
 
