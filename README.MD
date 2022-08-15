@@ -27,10 +27,6 @@ reduxjs/toolkit: ^1.8.2
 ```
 bootstrap: 5.1.3
 ```
-## 🤍 Versión de typewriter-effect
-```
-typewriter-effect: 2.18.2
-```
 ## 🤍 Versión de fortawesome
 ```
 fortawesome:6.1.1
