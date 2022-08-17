@@ -23,7 +23,7 @@ export const projectSlice = createSlice({
       id: Math.random(),
       name: 'To-do List App',
       description: 'An App using React Native, the first that I made, the idea is simple, a to-do app, there are a section to put the completed tasks and another for the pending ones. I\'m using TypeScript, styled components and Redux.',
-      src: 'https://i.postimg.cc/N0RRjY9f/Macbook-Pro-Dark-Background.png',
+      src: 'https://i.postimg.cc/Sx5hNbMj/Macbook-Pro-Phone-Todo-App.png',
       link: '',
       github: 'https://github.com/thedraxx/Todo-App-ReactNative'
     },
