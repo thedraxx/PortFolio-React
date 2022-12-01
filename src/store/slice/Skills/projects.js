@@ -24,16 +24,16 @@ export const projectSlice = createSlice({
       name: 'To-do List App',
       description: 'An App using React Native, the first that I made, the idea is simple, a to-do app, there are a section to put the completed tasks and another for the pending ones. I\'m using TypeScript, styled components and Redux.',
       src: 'https://i.postimg.cc/Sx5hNbMj/Macbook-Pro-Phone-Todo-App.png',
-      link: '',
+      link: 'https://drive.google.com/file/d/14fj7d7JIajadreUDEO1yqgz_1VTXgJwG/view?usp=sharing',
       github: 'https://github.com/thedraxx/Todo-App-ReactNative'
     },
     {
       id: Math.random(),
-      name: 'MyAnimeList Project',
-      description: 'A FrontEnd Project simulating an Anime App, I was use of inspiration Crunchyroll for the design and the functionality of this is checking the most popular anime of the moment and save this to watch later, plus when you finish this you can delete that. I\'m using React, Redux, Styled Components, SCSS and the API of MyAnimeList.',
-      src: 'https://i.postimg.cc/KjCHydQT/Macbook-Pro-Dark-Background.png',
-      link: 'https://thedraxx.github.io/AnimeReact/',
-      github: 'https://github.com/thedraxx/AnimeReact'
+      name: 'MyAnimeList App',
+      description: 'An App using React Native, this application allows you to see a list of anime, going from the most popular, recommended and upcoming, you can enter the one you are interested in, see more details about it, such as the synopsis, rating by user and what kind of genre it belongs to along with a list of similar anime. The application gives you the possibility to store anime in a pending list and at the same time allows you to delete them once you have already watched them.',
+      src: 'https://i.postimg.cc/5yc0TY6K/Macbook-Pro-Phone-My-Anime-List-App.gif',
+      link: 'https://drive.google.com/file/d/14_laCJm-IykSXbvMns_DlNZJgbl0F0sE/view?usp=sharing',
+      github: 'https://github.com/thedraxx/MyAnimeListApp'
     }]
   },
   reducers: {}
