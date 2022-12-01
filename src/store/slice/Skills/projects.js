@@ -21,6 +21,14 @@ export const projectSlice = createSlice({
     },
     {
       id: Math.random(),
+      name: 'MyAnimeList',
+      description: 'A FrontEnd Project simulating an Anime App, I was use of inspiration Crunchyroll for the design and the functionality of this is checking the most popular anime of the moment and save this to watch later, plus when you finish this you can delete that. I\'m using React, Redux, Styled Components, SCSS and the API of MyAnimeList.',
+      src: 'https://i.postimg.cc/KjCHydQT/Macbook-Pro-Dark-Background.png',
+      link: 'https://thedraxx.github.io/AnimeReact/',
+      github: 'https://github.com/thedraxx/AnimeReact'
+    },
+    {
+      id: Math.random(),
       name: 'To-do List App',
       description: 'An App using React Native, the first that I made, the idea is simple, a to-do app, there are a section to put the completed tasks and another for the pending ones. I\'m using TypeScript, styled components and Redux.',
       src: 'https://i.postimg.cc/Sx5hNbMj/Macbook-Pro-Phone-Todo-App.png',
