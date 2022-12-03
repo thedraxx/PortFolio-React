@@ -42,7 +42,17 @@ export const projectSlice = createSlice({
       src: 'https://i.postimg.cc/5yc0TY6K/Macbook-Pro-Phone-My-Anime-List-App.gif',
       link: 'https://drive.google.com/file/d/14_laCJm-IykSXbvMns_DlNZJgbl0F0sE/view?usp=sharing',
       github: 'https://github.com/thedraxx/MyAnimeListApp'
-    }]
+    },
+    {
+      id: Math.random(),
+      name: 'CryptoCurrency App',
+      description: 'An App using React Native, this application shows the current price of the Crypto Currency in USD, you can add a Crypto, delete and refresh every time to see the value in real time.',
+      src: 'https://i.postimg.cc/9MVYPwsX/Crypto-App.png',
+      link: '',
+      github: 'https://github.com/thedraxx/CryptoApp'
+    }
+
+    ]
   },
   reducers: {}
 })

@@ -11,7 +11,7 @@ const ProyectTemplate = ({ project }) => {
       <CustomDiv>
         <Card
           style={{
-            width: '30rem',
+            width: '25rem',
             margin: '20px',
             backgroundColor: active ? '#212529' : 'white'
           }}
