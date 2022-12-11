@@ -48,7 +48,7 @@ export const projectSlice = createSlice({
       name: 'CryptoCurrency App',
       description: 'An App using React Native, this application shows the current price of the Crypto Currency in USD, you can add a Crypto, delete and refresh every time to see the value in real time.',
       src: 'https://i.postimg.cc/9MVYPwsX/Crypto-App.png',
-      link: '',
+      link: 'https://drive.google.com/file/d/1BlCQG21ld5B8HlhYJ-C3w7UPEzDqk0MA/view?usp=sharing',
       github: 'https://github.com/thedraxx/CryptoApp'
     }
 
