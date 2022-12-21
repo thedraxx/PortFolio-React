@@ -22,10 +22,10 @@ export const projectSlice = createSlice({
     {
       id: Math.random(),
       name: 'MyAnimeList',
-      description: 'A FrontEnd Project simulating an Anime App, I was use of inspiration Crunchyroll for the design and the functionality of this is checking the most popular anime of the moment and save this to watch later, plus when you finish this you can delete that. I\'m using React, Redux, Styled Components, SCSS and the API of MyAnimeList.',
-      src: 'https://i.postimg.cc/KjCHydQT/Macbook-Pro-Dark-Background.png',
-      link: 'https://thedraxx.github.io/AnimeReact/',
-      github: 'https://github.com/thedraxx/AnimeReact'
+      description: 'In This Web-App you can see the next features:Most Popular Animes (Top 10) Upcoming Animes (Top 10) Tops Search Anime by Name View Anime Details, Episodes, Video, pictures, genres, etc. I\'m using React, Styled Components, React Player, axios and the API Jikan.',
+      src: 'https://i.postimg.cc/8kZqqs9Y/Macbook-Pro-Dark-Background.png',
+      link: 'https://myanimelist-web.netlify.app/',
+      github: 'https://github.com/thedraxx/MyAnimeList-Web'
     },
     {
       id: Math.random(),
